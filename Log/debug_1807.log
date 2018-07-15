@@ -1,0 +1,229 @@
+18-07-13 13:58:43:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[31] message:[Uncaught Error: Class 'EasySwoole\ProcessManager' not found in /home/www/easyswoole/EasySwooleEvent.php:31
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 14:00:35:Exception at file[/home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/Process/ProcessManager.php] line[46] message:[Class 'EasySwoole\Inotify' not found]
+18-07-13 14:00:35:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[36] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:36
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 14:00:51:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[36] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:36
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 14:01:56:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[36] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:36
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 14:04:31:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[36] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:36
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 14:09:48:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[34] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:34
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 14:10:43:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[34] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:34
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 14:10:45:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[34] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:34
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 14:10:52:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[34] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:34
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 14:12:56:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[34] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:34
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 14:13:44:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[33] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:33
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 14:17:24:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[33] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:33
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 14:17:42:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[33] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:33
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 14:20:13:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[33] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:33
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 14:24:29:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[33] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:33
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 14:50:16:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[34] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:34
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 15:04:15:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[34] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:34
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 15:06:53:Error at file[/home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php] line[67] message:[Swoole\Http\Server::start(): require onMessage callback]
+18-07-13 15:07:13:Error at file[/home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php] line[67] message:[Swoole\Http\Server::start(): require onMessage callback]
+18-07-13 15:17:07:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[34] message:[Uncaught Error: Class 'EasySwoole\Cron\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:34
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 15:17:31:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[34] message:[Uncaught Error: Class 'EasySwoole\Croe\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:34
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 15:17:55:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[34] message:[Uncaught Error: Class 'EasySwoole\Croe\Swoole\EventHelper' not found in /home/www/easyswoole/EasySwooleEvent.php:34
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(130): EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\Core\Swoole\ServerManager), Object(EasySwoole\Core\Swoole\EventRegister))
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-13 15:18:07:Error at file[/home/www/easyswoole/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(string $raw, $client, $commandBean): ?string must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
+18-07-13 15:35:16:Error at file[/home/www/easyswoole/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(string $raw, $client, $commandBean): ?string must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
+18-07-13 15:36:42:Error at file[/home/www/easyswoole/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(string $raw, $client, $commandBean): ?string must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
+18-07-13 15:36:51:Error at file[/home/www/easyswoole/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(string $raw, $client, $commandBean) must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
+18-07-13 18:01:56:Error at file[/home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php] line[143] message:[Swoole\Server::on(): unknown event types[message]]
+18-07-13 18:06:58:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[31] message:[Undefined variable: ssl_dir]
