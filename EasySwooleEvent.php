@@ -30,8 +30,8 @@ Class EasySwooleEvent implements EventInterface {
 
         // TODO: Implement mainServerCreate() method.
         // 代码热重启
-         ProcessManager::getInstance()->addProcess('autoReload', Inotify::class);
-         EventHelper::registerDefaultOnMessage($register, WebSocket::class);
+        //  ProcessManager::getInstance()->addProcess('autoReload', Inotify::class);
+        //  EventHelper::registerDefaultOnMessage($register, WebSocket::class);
          
 
     }

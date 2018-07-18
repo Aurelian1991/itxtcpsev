@@ -227,3 +227,17 @@ Stack trace:
 18-07-13 15:36:51:Error at file[/home/www/easyswoole/App/Socket/Parser/WebSocket.php] line[9] message:[Declaration of App\Socket\Parser\WebSocket::encode(string $raw, $client, $commandBean) must be compatible with EasySwoole\Core\Socket\AbstractInterface\ParserInterface::encode(string $raw, $client): ?string]
 18-07-13 18:01:56:Error at file[/home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php] line[143] message:[Swoole\Server::on(): unknown event types[message]]
 18-07-13 18:06:58:Error at file[/home/www/easyswoole/EasySwooleEvent.php] line[31] message:[Undefined variable: ssl_dir]
+18-07-18 15:25:33:Error at file[/home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php] line[119] message:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501]. Error: Address already in use[98]. in /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php:119
+Stack trace:
+#0 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(119): Swoole\Server->__construct('0.0.0.0', 9501, 3, 1)
+#1 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php(61): EasySwoole\Core\Swoole\ServerManager->createMainServer()
+#2 /home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Core.php(45): EasySwoole\Core\Swoole\ServerManager->start()
+#3 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(322): EasySwoole\Core\Core->run()
+#4 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(25): serverStart(Array)
+#5 /home/www/easyswoole/vendor/easyswoole/easyswoole/bin/easyswoole(458): commandHandler()
+#6 /home/www/easyswoole/easyswoole(2): require('/home/www/easys...')
+#7 {main}
+  thrown]
+18-07-18 15:35:27:Error at file[/home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php] line[144] message:[Swoole\Server::on(): unknown event types[message]]
+18-07-18 15:40:27:Error at file[/home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php] line[115] message:[Use of undefined constant SWOOLE_SSL - assumed 'SWOOLE_SSL']
+18-07-18 15:40:27:Error at file[/home/www/easyswoole/vendor/easyswoole/easyswoole/src/Core/Swoole/ServerManager.php] line[115] message:[A non-numeric value encountered]

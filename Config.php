@@ -12,16 +12,16 @@ return [
         'HOST'=>'0.0.0.0',
         'PORT'=>9501,
         // 'SERVER_TYPE'=>\EasySwoole\Core\Swoole\ServerManager::TYPE_WEB_SERVER,
-        'SERVER_TYPE'=>\EasySwoole\Core\Swoole\ServerManager::TYPE_WEB_SOCKET_SERVER,
-        'SOCK_TYPE'=>SWOOLE_SOCK_TCP | SWOOLE_SSL,//该配置项当为SERVER_TYPE值为TYPE_SERVER时有效
+        'SERVER_TYPE'=>\EasySwoole\Core\Swoole\ServerManager::TYPE_WEB_SERVER,
+        'SOCK_TYPE'=>SWOOLE_SOCK_TCP|SWOOLE_SSL,//该配置项当为SERVER_TYPE值为TYPE_SERVER时有效
         'RUN_MODEL'=>SWOOLE_PROCESS,
         'SETTING'=>[
             'task_worker_num' => 8, //异步任务进程
             'task_max_request'=>10,
             'max_request'=>5000,//强烈建议设置此配置项
             'worker_num'=>8,
-            'ssl_cert_file' => $ssl_dir . '/ssl.crt',
-            'ssl_key_file' => $ssl_dir . '/ssl.key',
+            'ssl_cert_file' => EASYSWOOLE_ROOT . '/host.crt',
+            'ssl_key_file' => EASYSWOOLE_ROOT . '/host.key',
             'open_http2_protocol' => true,
         ],
     ],

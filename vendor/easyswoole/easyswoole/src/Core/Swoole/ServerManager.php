@@ -112,10 +112,11 @@ class ServerManager
                 break;
             }
             case self::TYPE_WEB_SERVER:{
-                $this->mainServer = new \swoole_http_server($host,$port,$runModel,$sockType);
+                $this->mainServer = new \swoole_http_server($host,$port,$runModel,SWOOLE_SOCK_TCP | SWOOLE_SSL);
                 break;
             }
             case self::TYPE_WEB_SOCKET_SERVER:{
+                echo $sockType;
                 $this->mainServer = new \swoole_websocket_server($host,$port,$runModel,$sockType);
                 break;
             }
